@@ -9,10 +9,10 @@
 2. [Usage](#usage)
 
 3. [Components](#components)
-    - [Base Component Props](#base-component-props)
     - [Accordion](#accordion)
 
 4. [Props Documention](#props-documention)
+    - [Base Component Props](#base-component-props)
     - [Accordion Props](#accordion-props)
 
 5. [Contributing](#contributing)
@@ -53,6 +53,13 @@ These components are designed with flexibility in mind, so you can easily custom
     ```
 
 3. Customize the component as needed by adjusting the props or modifying the code.
+
+---
+
+## Components
+
+### Accordion
+<p>A customizable accordion component that handles header and body.</p>
 
 ---
 
