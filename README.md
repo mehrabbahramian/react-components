@@ -61,6 +61,9 @@ These components are designed with flexibility in mind, so you can easily custom
 ### Accordion
 <p>A customizable accordion component that handles header and body.</p>
 
+### Repeater
+<p>A component for repeating inputs after each other when getting value</p>
+
 ---
 
 ## Props Documention
@@ -76,9 +79,13 @@ These components are designed with flexibility in mind, so you can easily custom
 ### Accordion Props
 | Prop      | Type              | Required | Default   | Description                       |
 |-----------|-------------------|----------|-----------|-----------------------------------|
-| `Children`      | `React.ReactNode`| no       | —         | react node to show in accordion body|
-| `getHeader`      | `() => React.ReactNode`| no| —         | react node to show in accordion header|
+| `Children`      | `React.ReactNode`| yes       | —         | react node to show in accordion body|
+| `getHeader`      | `() => React.ReactNode`| yes| —         | react node to show in accordion header|
 
+### Repeater Props
+| Prop      | Type              | Required | Default   | Description                       |
+|-----------|-------------------|----------|-----------|-----------------------------------|
+| `createItem`      | `(index: number, ref: React.RefObject<ItemType>, onChange: (index: number) => void, onDelete: (index: number) => void) => ReactNode`| yes       | —         | !!!                                |
 ---
 
 ## Contributing
